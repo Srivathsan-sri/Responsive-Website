@@ -1,0 +1,535 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+#nav{
+    background-color:#FFF637;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+
+}
+#nav ul li {
+    display: inline-block;
+    margin: 40px;
+    position: relative;
+}
+#nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+#nav > a{
+    text-decoration: none;
+    color: #088178;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #088178;
+    padding: 10px;
+    border-radius: 50%;
+}
+#nav ul li a:hover,
+#nav ul li a.active{
+    color: rgb(231, 83, 83);
+    
+}
+#nav ul li a:hover::after,
+#nav ul li a.active::after{
+    content: "";
+    width: 60%;
+    height: 2px;
+    background: rgb(231, 83, 83);
+    position: absolute;
+    bottom: -4px;
+    left: 1px;
+}
+#bar{
+    display: none;
+}
+#hero{
+    background-image: url("images/1.jpg");
+    height: 85vh;
+    background-size: cover;
+    padding: 0 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+#hero h4{
+    padding-bottom: 15px;
+    font-size: large;
+}
+#hero h1{
+    color: #088178;
+    font-size: 50px;
+    padding-bottom:15px;
+}
+#hero h2{
+    font-size: 50px;
+}
+#hero p{
+    font-size: large;
+    padding-bottom: 20px;
+}
+#hero button{
+    background: transparent;
+    color: #088178;
+    border: 1px solid #088178;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+}
+#hero button:hover{
+    background-color: #088178;
+    color: #FFF637;
+    
+}
+#box{
+    min-height: 30vh;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.minibox{
+    margin-top: 10px;
+    height: 200px;
+    width: 250px;
+    background-color: white;
+    border: 1px solid black;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 30%;
+    
+}
+.minibox img{
+    border-radius: 50%;
+}
+.minibox:hover{
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+.minibox h4{
+    text-align: center;
+    color: #088178;
+    
+}
+.container1{
+    margin-top: 35px;
+    height: 200px;
+    background-color: #FEF200;
+}
+.container1 h2{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+}
+.container1 p{
+    text-align: center;
+}
+.box2{
+    min-height: 130vh;
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.minibox2{
+    margin: 2px;
+    margin-bottom: 30px;
+    height: 380px;
+    width: 300px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border: 1px solid black;
+    border-radius: 10%;
+    
+}
+.minibox2 h4 {
+    text-align: center;
+    padding: 8px;
+    font-size: xx-small;
+}
+.container2 button {
+    background-color: transparent;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.container2 {
+    height: 25vh;
+    background-color: #FEF200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bann {
+    min-height: 50vh;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.bann1 {
+    height: 300px;
+    width: 600px;
+    background-image: url('images/b1.jpg');
+    background-size: cover;
+}
+
+.bann2 {
+    height: 300px;
+    width: 600px;
+    background-image: url('images/b9.jpg');
+    background-size: cover;
+}
+
+.bann3 {
+    height: 220px;
+    width: 600px;
+    background-image: url('images/b2.jpg');
+    background-size: cover;
+}
+
+.bann4 {
+    height: 220px;
+    width: 600px;
+    background-image: url('images/b8.jpg');
+    background-size: cover;
+}
+
+.bann5 {
+    height: 220px;
+    width: 600px;
+    background-image: url('images/b4.jpg');
+    background-size: cover;
+}
+
+.bann1 h4 {
+    margin: 10px;
+    line-height: 1.0;
+}
+
+.bann1 h2 {
+    margin: 10px;
+    line-height: 1.0;
+}
+
+.bann1 p {
+    margin: 10px;
+    line-height: 1.0;
+}
+
+.bann1 button {
+    line-height: 0.5;
+    background-color: transparent;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.bann2 h4 {
+    margin: 10px;
+    line-height: 1.0;
+}
+
+.bann2 h2 {
+    margin: 10px;
+    line-height: 1.0;
+}
+
+.bann2 h1 {
+    margin: 10px;
+    line-height: 1.0;
+}
+
+.bann2 p {
+    margin: 10px;
+    line-height: 1.0;
+}
+
+.bann2 button {
+    line-height: 0.5;
+    background-color: transparent;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.bann3 h2 {
+    margin: 10px;
+    line-height: 1.0;
+}
+
+.bann3 h4 {
+    margin: 10px;
+    color: sienna;
+    font-size: large;
+    line-height: 1.0;
+}
+
+.bann4 h2 {
+    margin: 10px;
+    line-height: 1.0;
+    text-align: end;
+}
+
+.bann4 h4 {
+    margin: 10px;
+    color: sienna;
+    font-size: large;
+    line-height: 0.5;
+    text-align: end;
+    line-height: 0.5;
+}
+
+.bann5 h2 {
+    text-align: end;
+    margin: 10px;
+    line-height: 1.0;
+}
+
+.bann5 h4 {
+    margin: 10px;
+    text-align: end;
+    color: sienna;
+    font-size: large;
+    line-height: 0.5;
+}
+
+.container3 {
+    height: 25vh;
+    background-color: #FEF200;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container3 button {
+    padding: 10px;
+    border: 2px solid black;
+    background-color: transparent;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+.container3 input {
+    padding-left: 100px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: transparent;
+}
+
+.container3 ::placeholder {
+    color: black;
+}
+
+.foo {
+    min-height: 35vh;
+    background-color: white;
+    margin: 10px;
+    margin-left: 70px;
+    margin-right: 100px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.foo1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.foo2{
+    display: flex;
+
+}
+.fo1{
+    margin: 10px;
+    padding: 10px;
+}
+.fo2{
+    margin: 10px;
+    padding: 10px;
+}
+.fo3{
+    margin: 10px;
+    padding: 10px;
+}
+.foo h4{
+    padding-bottom: 10px;
+}
+.credit{
+    min-height: 20px;
+    background-color: #FEF200;
+    text-align: center;
+}
+.credit span{
+    color: #088178;
+}
+.foo a{
+    text-decoration: none;
+    color: #088178;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #088178;
+    padding: 10px;
+    border-radius: 50%;
+}
+@media screen and (max-width:760px) {
+    .foo {
+        display: flex;
+        flex-direction: column;
+    }
+    .foo2{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width:730px) {
+    .container1{
+        justify-content: space-around;
+    }
+    .minibox2 {
+        margin: 2px;
+        margin-bottom: 30px;
+        height: 280px;
+        width: 200px;
+        padding-left: 20px;
+        padding-top: 20px;
+        border: 1px solid black;
+        border-radius: 10%;
+    }
+
+    .minibox2 img{
+        height: 220px;
+        width: 180px;
+    }
+
+}
+
+
+@media screen and (max-width:860px) {
+
+   
+    .bann1 {
+        height: 250px;
+        width: 310px;
+        background-size: cover;
+    }
+    
+    .bann2 {
+        height: 250px;
+        width: 310px;
+    }
+    
+    .bann3 {
+        height: 200px;
+        width: 175px;
+    }
+    
+    .bann4 {
+        height: 200px;
+        width: 175px;
+    }
+    
+    .bann5 {
+        height: 200px;
+        width: 175px;
+    }
+   
+}
+
+@media screen and (max-width:699px) {
+    #bar{
+        display: block;
+        cursor: pointer;
+    }
+    .navbar{
+       position: absolute;
+       right:0px;
+       height: 90vh;
+       top: 10vh;
+       background-color:#FFF637;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 40%;
+       transform: translateX(100%);
+       transition: transform 2.5s ease-in;
+       display: none;
+    }
+    
+    .no{
+        transform: translateX(0%);
+        display: block;
+    }
+   
+
+   
+
+    .minibox {
+        height: 150px;
+        width: 200px;
+        
+    }
+    .minibox img{
+        height: 120px;
+        width: 200px;
+    }
+    .bann1 {
+        height: 300px;
+        width: 410px;
+        background-size: cover;
+    }
+    
+    .bann2 {
+        height: 300px;
+        width: 410px;
+    }
+    
+    .bann3 {
+        height: 300px;
+        width: 410px;
+    }
+    
+    .bann4 {
+        height: 300px;
+        width: 410px;
+    }
+    
+    .bann5 {
+        height: 300px;
+        width: 410px;
+    }
+   .container3{
+    font-size: x-small;
+   }
+   .minibox2,.minibox{
+    font-size: small;
+   }
+    
+}
